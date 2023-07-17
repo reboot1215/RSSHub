@@ -1,4 +1,16 @@
 {
+  "81.cn": {
+    "_name": "中国军网",
+    "81rc": [
+      {
+        "title": "军队人才网",
+        "docs": "https://docs.rsshub.app/government.html#zhon-guo-jun-wang-jun-dui-ren-cai-wang",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
   "163.com": {
     "_name": "网易",
     ".": [
@@ -5724,6 +5736,16 @@
         "docs": "https://docs.rsshub.app/university.html#dong-hua-da-xue"
       }
     ],
+    "news": [
+      {
+        "title": "学术信息",
+        "docs": "https://docs.rsshub.app/university.html#dong-hua-da-xue",
+        "source": [
+          "/6410"
+        ],
+        "target": "/dhu/news/xsxx"
+      }
+    ],
     "xxgk": [
       {
         "title": "最新信息公开",
@@ -8270,6 +8292,20 @@
       }
     ]
   },
+  "globallawreview.org": {
+    "_name": "环球法律评论",
+    ".": [
+      {
+        "title": "期刊",
+        "docs": "https://docs.rsshub.app/journal.html#huan-qiu-fa-lu-ping-lun",
+        "source": [
+          "/Magazine/GetIssueContentList",
+          "/"
+        ],
+        "target": "/globallawreview"
+      }
+    ]
+  },
   "gocn.vip": {
     "_name": "GoCN",
     ".": [
@@ -9188,6 +9224,16 @@
         "docs": "https://docs.rsshub.app/government.html#guo-jia-guang-bo-dian-shi-zong-ju",
         "source": [
           "/col/*category"
+        ]
+      }
+    ],
+    "dsj": [
+      {
+        "title": "电视剧政务平台",
+        "docs": "https://docs.rsshub.app/government.html#guo-jia-guang-bo-dian-shi-zong-ju",
+        "source": [
+          "/tims/site/views/applications.shanty",
+          "/"
         ]
       }
     ]
@@ -10744,6 +10790,15 @@
           "/Category/:guid/ArticlesByCategory.do"
         ],
         "target": "/hunanpea/rsks/:guid"
+      }
+    ]
+  },
+  "huoxian.cn": {
+    "_name": "火线",
+    "zone": [
+      {
+        "title": "Zone",
+        "docs": "https://docs.rsshub.app/bbs.html#huo-xian"
       }
     ]
   },
@@ -13092,6 +13147,26 @@
         "source": "/topics/:id",
         "target": "/jike/topic/text/:id"
       }
+    ],
+    "web": [
+      {
+        "title": "用户动态",
+        "docs": "https://docs.rsshub.app/social-media.html#ji-ke",
+        "source": "/u/:uid",
+        "target": "/jike/user/:uid"
+      },
+      {
+        "title": "圈子",
+        "docs": "https://docs.rsshub.app/social-media.html#ji-ke",
+        "source": "/topic/:id",
+        "target": "/jike/topic/:id"
+      },
+      {
+        "title": "圈子 - 纯文字",
+        "docs": "https://docs.rsshub.app/social-media.html#ji-ke",
+        "source": "/topic/:id",
+        "target": "/jike/topic/text/:id"
+      }
     ]
   },
   "jin10.com": {
@@ -13413,6 +13488,19 @@
           "/"
         ],
         "target": "/kemono/:source?/:id?"
+      }
+    ]
+  },
+  "keylol.com": {
+    "_name": "其乐",
+    ".": [
+      {
+        "title": "论坛",
+        "docs": "https://docs.rsshub.app/game.html#qi-le-lun-tan",
+        "source": [
+          "/:category",
+          "/"
+        ]
       }
     ]
   },
@@ -14283,6 +14371,19 @@
           "/:category"
         ],
         "target": "/macmenubar/recently/category"
+      }
+    ]
+  },
+  "macupdate.com": {
+    "_name": "MacUpdate",
+    ".": [
+      {
+        "title": "更新",
+        "docs": "https://docs.rsshub.app/program-update.html#macupdate",
+        "source": [
+          "/app/mac/:appId/:appSlug"
+        ],
+        "target": "/macupdate/app/:appId/:appSlug?"
       }
     ]
   },
@@ -19257,6 +19358,15 @@
       }
     ]
   },
+  "sec-in.com": {
+    "_name": "SecIN信息安全技术社区",
+    ".": [
+      {
+        "title": "最新文章",
+        "docs": "https://docs.rsshub.app/bbs.html#secin-xin-xi-an-quan-ji-shu-she-qu"
+      }
+    ]
+  },
   "secrss.com": {
     "_name": "安全内参",
     ".": [
@@ -19417,6 +19527,19 @@
           "/"
         ],
         "target": "/setn/女孩"
+      }
+    ]
+  },
+  "shcstheatre.com": {
+    "_name": "上海文化广场",
+    "www": [
+      {
+        "title": "节目列表",
+        "docs": "https://docs.rsshub.app/shopping.html#shang-hai-wen-hua-guang-chang-jie-mu-lie-biao",
+        "source": [
+          "/Program/programList.aspx"
+        ],
+        "target": "/shcstheatre/programs"
       }
     ]
   },
@@ -20257,6 +20380,54 @@
         "docs": "https://docs.rsshub.app/bbs.html#di-yi-hui-suo",
         "source": [
           "/forum/:id"
+        ]
+      }
+    ]
+  },
+  "sjtu.edu.cn": {
+    "_name": "上海交通大学",
+    "bjwb.seiee": [
+      {
+        "title": "电子信息与电气工程学院",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-jiao-tong-da-xue",
+        "source": [
+          "/seiee/list/:type",
+          "/bkjwb/list/:type",
+          "/xsb/list/:type"
+        ]
+      }
+    ],
+    "gs": [
+      {
+        "title": "研究生通知公告",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-jiao-tong-da-xue-yan-jiu-sheng-tong-zhi-gong-gao",
+        "source": [
+          "/announcement/:type"
+        ],
+        "target": "/sjtu/gs/:type"
+      }
+    ],
+    "jwc": [
+      {
+        "title": "教务处通知公告",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-jiao-tong-da-xue",
+        "source": [
+          "/xwtg/:type"
+        ]
+      }
+    ],
+    "tongqu": [
+      {
+        "title": "同去网最新活动",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-jiao-tong-da-xue"
+      }
+    ],
+    "yzb": [
+      {
+        "title": "研究生招生网招考信息",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-jiao-tong-da-xue",
+        "source": [
+          "/index/zkxx/:type"
         ]
       }
     ]
@@ -21881,6 +22052,18 @@
           "/"
         ],
         "target": "/theverge/:hub?"
+      }
+    ]
+  },
+  "threads.net": {
+    "_name": "Threads",
+    ".": [
+      {
+        "title": "User timeline",
+        "docs": "https://docs.rsshub.app/en/social-media.html#threads",
+        "source": [
+          "/:user"
+        ]
       }
     ]
   },
@@ -24485,6 +24668,19 @@
           "/"
         ],
         "target": "/yahoo/news/:region/:category?"
+      }
+    ]
+  },
+  "yangtzeu.edu.cn": {
+    "_name": "长江大学",
+    ".": [
+      {
+        "title": "动物科学学院",
+        "docs": "https://docs.rsshub.app/universities.html#chang-jiang-da-xue-dong-wu-ke-xue-xue-yuan",
+        "source": [
+          "/:category",
+          "/"
+        ]
       }
     ]
   },
